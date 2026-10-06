@@ -10,6 +10,10 @@ Rather than allowing the language model to make every decision, ClauseCheck sepa
 
 > **Disclaimer:** ClauseCheck is a portfolio prototype and does not provide legal advice. AI-generated findings may be incomplete or inaccurate and should be independently reviewed.
 
+## Application Preview
+
+![ClauseCheck review summary and contract overview](assets/review-summary.png)
+
 ---
 
 ## Features
@@ -260,6 +264,8 @@ The interface specifically surfaces:
 - limitations
 - referenced material that may be missing
 
+![ClauseCheck human review, missing provisions, and limitations](assets/human-review.png)
+
 This makes uncertainty visible rather than attempting to hide it behind a single model-generated conclusion.
 
 ---
@@ -330,6 +336,8 @@ The Streamlit interface displays:
 - missing provisions
 - limitations
 - clause-level evidence and findings
+
+![ClauseCheck clause-level review with evidence and source location](assets/clause-review.png)
 
 ### PDF Report
 
